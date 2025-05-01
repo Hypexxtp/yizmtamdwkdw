@@ -4,7 +4,7 @@ const SponsorsSection: React.FC = () => {
   return (
     <section className="my-16">
       <h2 className="text-2xl md:text-4xl font-bold text-center mb-8">Patrocinadores</h2>
-      <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-8 flex-wrap">
         {/* RKM MOD STORE */}
         <div className="text-center">
           <img
@@ -49,6 +49,24 @@ const SponsorsSection: React.FC = () => {
               Discord
             </a>
           </div>
+        </div>
+
+        {/* SK STORE */}
+        <div className="text-center">
+          <img
+            src="https://media.discordapp.net/attachments/1326663950623838270/1367570086910496808/SK-STORE-PNG.png?ex=68151064&is=6813bee4&hm=3fce1dab64bdc6fb5b09bb21a8e822cbfc3918f637eafc4454613b31fc11e94d&=&format=webp&quality=lossless&width=426&height=426"
+            alt="SK STORE"
+            className="w-32 h-32 object-contain mx-auto mb-4"
+          />
+          <h3 className="text-lg font-bold text-white">SK STORE</h3>
+          <a
+            href="https://discord.gg/FcbG9CpHWg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan-400 hover:text-cyan-300 transition-colors underline"
+          >
+            Discord
+          </a>
         </div>
       </div>
     </section>
