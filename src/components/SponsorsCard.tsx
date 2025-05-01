@@ -69,9 +69,9 @@ const SponsorsCard: React.FC = () => {
           </div>
 
           {/* MOD STORE */}
-          <div className="w-full flex items-center space-x-4">
+          <div className="w-full flex items-center space-x-4 mb-6">
             <img
-              src="https://cdn.discordapp.com/attachments/1342244412272545873/1367561176669487112/MOD-White.png?ex=68150818&is=6813b698&hm=524f1776e4ea8458fa2e81e7f1604b3cf3783de61fc926eae058c10b3b4cd3f9&" // Replace with the pasted image URL
+              src="https://cdn.discordapp.com/attachments/1342244412272545873/1367561176669487112/MOD-White.png?ex=68150818&is=6813b698&hm=524f1776e4ea8458fa2e81e7f1604b3cf3783de61fc926eae058c10b3b4cd3f9&"
               alt="MOD STORE"
               className="w-16 h-16 object-contain"
             />
@@ -79,6 +79,26 @@ const SponsorsCard: React.FC = () => {
               <h4 className="text-white font-medium">MOD STORE</h4>
               <a
                 href="https://discord.gg/Z4qG4nFXqw"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan-400 hover:text-cyan-300 transition-colors underline"
+              >
+                Link do Servidor
+              </a>
+            </div>
+          </div>
+
+          {/* SK STORE */}
+          <div className="w-full flex items-center space-x-4">
+            <img
+              src="https://media.discordapp.net/attachments/1326663950623838270/1367570086910496808/SK-STORE-PNG.png?ex=68151064&is=6813bee4&hm=3fce1dab64bdc6fb5b09bb21a8e822cbfc3918f637eafc4454613b31fc11e94d&=&format=webp&quality=lossless&width=426&height=426"
+              alt="SK STORE"
+              className="w-16 h-16 object-contain"
+            />
+            <div>
+              <h4 className="text-white font-medium">SK STORE</h4>
+              <a
+                href="https://discord.gg/FcbG9CpHWg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-cyan-400 hover:text-cyan-300 transition-colors underline"
