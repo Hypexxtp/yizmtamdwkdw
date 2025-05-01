@@ -41,7 +41,7 @@ const SponsorsSection: React.FC = () => {
               Site
             </a>
             <a
-              href="https://discord.gg/snrXEXt959"
+              href="https://discord.gg/telas"
               target="_blank"
               rel="noopener noreferrer"
               className="text-cyan-400 hover:text-cyan-300 transition-colors underline"
